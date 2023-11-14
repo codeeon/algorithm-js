@@ -2,3 +2,9 @@
 // https://school.programmers.co.kr/learn/courses/30/lessons/120820
 
 const solution = (age) => (2022 - age) + 1;
+
+
+
+// function solution(age) {
+//     return new Date().getFullYear() - age + 1;
+// }
