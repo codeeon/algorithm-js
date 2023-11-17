@@ -1,8 +1,8 @@
 // 짝수의 합
 // https://school.programmers.co.kr/learn/courses/30/lessons/120831
 
-const { array } = require('prop-types');
-const { useDebugValue } = require('react');
+// const { array } = require('prop-types');
+// const { useDebugValue } = require('react');
 
 const solution = (n) => {
   let a = 0;
