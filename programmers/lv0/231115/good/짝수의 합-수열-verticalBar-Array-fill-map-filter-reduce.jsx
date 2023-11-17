@@ -22,6 +22,7 @@ const solution3 = (n) => {
   return ((Math.floor(n / 2) * (2 + n)) / 2) | 0; // single vertical bar
 };
 // single vertical bar -> 이진수로 변환 후 각 자리 버림 합을 한 후 그에 대한 결과값을 리턴?
+// bit연산자 |, & -> 짝수/홀수에 씀
 
 // 배열 메소드 - Array() constructor, fill, map, filter, reduce
 const solution4 = (n) => {
