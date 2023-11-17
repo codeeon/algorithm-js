@@ -6,4 +6,6 @@ const solution = (numbers) => {
 };
 
 // 수학적 접근
-const solution2 = (numbers) => (numbers[0] + numbers[numbers.length - 1]) / 2;
+function solution(numbers) {
+  (numbers[0] + numbers[numbers.length - 1]) / 2;
+}
