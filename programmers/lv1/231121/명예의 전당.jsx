@@ -14,7 +14,7 @@ const solution = (k, score) => {
 };
 // 반복문 돌려서
 // record에 push, 내림차순 정렬하고
-// k <= length ? record[-1] : record[k-1]
+// k >= length ? record[-1] : record[k-1]
 // -> answer에 각각 push
 // 최종 answer 리턴
 
